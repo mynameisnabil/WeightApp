@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weight App</string>
+
+    <string  name="jh">
+        <item>Aplikasi ini adalah aplikasi tentang </item>
+        <item>berat badan yg ideal bagi kesehatan aplikasi ini  </item>
+        <item>mengikuti standar international semoga  aplikasi ini bermanfaat</item>
+    </string>
+</resources>

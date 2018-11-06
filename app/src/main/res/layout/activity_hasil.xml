@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.weightapp.HasilActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_nama"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_bb"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tinggi Badan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_tb"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil BMI : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_bmi"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_ket"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Bagikan Ke Email"
+        android:onClick="bagikanKeEmail"/>
+
+
+</RelativeLayout>
